@@ -7,12 +7,12 @@ public class Main {
 
         int[] myArray = init.initArr();
 
-        System.out.println("Array before sort: ");
+        System.out.println("\nArray before sort: ");
 
         print.printArray(myArray);
         sort.selectionSort(myArray);
 
-        System.out.println("Array after sort: ");
+        System.out.println("\nArray after sort: ");
 
         print.printArray(myArray);
     }
